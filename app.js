@@ -34,31 +34,31 @@ function compareNumbers() {
 
     if (a != b) {
         z.innerHTML = "Numbers are not the same. Computer got " + b + ", and user got " + a;
-        z.style.color = "white";
-        z.style.backgroundColor = "#ff0000";
+        z.style.color = "lightblue";
+        z.style.backgroundColor = "darkblue";
         z.style.padding = "20px";
         z.style.textAlign = "center";
         counter++;
         c.innerHTML = "You have tried " + counter + " times."
-        c.style.color = "white";
-        c.style.backgroundColor = "#312f2f";
+        c.style.color = "lightblue";
+        c.style.backgroundColor = "darkblue";
         c.style.padding = "20px";
         c.style.textAlign = "center";
-        document.querySelector("body").style.backgroundColor = "#ff9c9c";
+        document.querySelector("body").style.backgroundColor = "blue";
 
     } else if (a == b) {
         z.innerHTML = "Numbers are the same. Computer got " + b + ", and user got " + a;
-        z.style.color = "white";
-        z.style.backgroundColor = "#07a007";
+        z.style.color = "red";
+        z.style.backgroundColor = "midnightblue";
         z.style.padding = "20px";
         z.style.textAlign = "center";
         c.innerHTML = "You have tried " + counter + " times to get it right."
-        c.style.color = "white";
-        c.style.backgroundColor = "#312f2f";
+        c.style.color = "red";
+        c.style.backgroundColor = "midnightblue";
         c.style.padding = "20px";
         c.style.textAlign = "center";
         counter = 0;
-        document.querySelector("body").style.backgroundColor = "#e4ff9c";
+        document.querySelector("body").style.backgroundColor = "orange";
     }
 
     resetInput();
