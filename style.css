@@ -1,13 +1,13 @@
 #getNumber {
     font-size: 22px;
     text-align: center;
-    font-family: 'Cookie', cursive;
+    font-family: 'Poiret One', cursive;
 }
 
 .inputNumberBox {
     display: flex;
     justify-content: center;
-    font-family: 'Cookie', cursive;
+    font-family: 'Poiret One', cursive;
 }
 
 #paragraph {
@@ -15,7 +15,7 @@
     background-color: rgb(50, 205, 216);
     color: rgb(42, 17, 70);
     padding: 30px;
-    font-family: 'Cookie', cursive;
+    font-family: 'Poiret One', cursive;
 }
 
 .header {
@@ -23,7 +23,7 @@
     color: rgb(9, 249, 225);
     padding: 20px;
     text-align: center;
-    font-family: 'Cookie', cursive;
+    font-family: 'Poiret One', cursive;
 }
 
 .instructions {
@@ -31,5 +31,5 @@
     color: rgb(42, 17, 70);
     padding: 20px;
     text-align: center;
-    font-family: 'Cookie', cursive;
+    font-family: 'Poiret One', cursive;
 }
